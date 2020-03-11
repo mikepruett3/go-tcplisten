@@ -16,6 +16,8 @@ No configuration required. Build to be executed from either **command line** or 
 > .\go-tcplisten 1234
 ```
 
+Where **1234** is the TCP Port number you want the service to listen to.
+
 ### Windows Service
 
 Add to Services using the following...
