@@ -58,9 +58,9 @@ func (p *program) Stop(s service.Service) error {
 
 func main() {
 	svcConfig := &service.Config{
-		Name:        "GoServiceExampleSimple",
-		DisplayName: "Go Service Example",
-		Description: "This is an example Go service.",
+		Name:        "GoLang TCP Listener",
+		DisplayName: "GoLang TCP Listener",
+		Description: "GoLang TCP Listener",
 	}
 
 	prg := &program{}

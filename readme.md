@@ -18,8 +18,6 @@ No configuration required. Build to be executed from either **command line** or 
 
 ### Windows Service
 
-[How to create a windows service by using sc.exe](https://support.microsoft.com/en-us/help/251192/how-to-create-a-windows-service-by-using-sc-exe)
-
 Add to Services using the following...
 
 ```batch
@@ -46,4 +44,8 @@ The resulting executable & config.yml file can be placed in your system or user 
 
 ## References
 
-Using the [Type Listener](https://golang.org/pkg/net/#example_Listener) Example from the [Package net](https://golang.org/pkg/net/) Documentation
+- Using the [Type Listener](https://golang.org/pkg/net/#example_Listener) Example from the [Package net](https://golang.org/pkg/net/) Documentation
+
+- Using [service](https://github.com/kardianos/service) go package, by [kardianos](https://github.com/kardianos)
+
+- Following steps from [How to create a windows service by using sc.exe](https://support.microsoft.com/en-us/help/251192/how-to-create-a-windows-service-by-using-sc-exe)
