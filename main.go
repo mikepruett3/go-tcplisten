@@ -39,6 +39,7 @@ func (p *program) run() {
 		if err != nil {
 			log.Fatal(err)
 		}
+		log.Println("Connection from", conn.RemoteAddr())
 		// Handle the connection in a new goroutine.
 		// The loop then returns to accepting, so that
 		// multiple connections may be served concurrently.
